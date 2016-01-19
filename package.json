@@ -1,7 +1,8 @@
 {
   "name": "jspm-loader-css-modules",
-  "version": "1.0.1-beta1",
+  "version": "1.0.4",
   "format": "es6",
+  "registry": "jspm",
   "description": "A CSS Modules loader for JSPM",
   "main": "index.js",
   "scripts": {
@@ -9,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/geelen/jspm-loader-css-modules.git"
+    "url": "https://github.com/jhoch/jspm-loader-css-modules.git"
   },
   "keywords": [
     "jspm",
@@ -19,11 +20,20 @@
   "author": "Glen Maddern",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/geelen/jspm-loader-css-modules/issues"
+    "url": "https://github.com/jhoch/jspm-loader-css-modules/issues"
   },
-  "homepage": "https://github.com/geelen/jspm-loader-css-modules",
-  "registry": "npm",
-  "dependencies": {
-    "jspm-loader-css": "github:jhoch/jspm-loader-css@1.0.1"
+  "homepage": "https://github.com/jhoch/jspm-loader-css-modules",
+  "jspm": {
+    "dependencies": {
+      "jspm-loader-css": "github:jhoch/jspm-loader-css@1.0.1"
+    },
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.8.24",
+      "babel-runtime": "npm:babel-runtime@^5.8.24",
+      "core-js": "npm:core-js@^1.1.4"
+    }
+  },
+  "devDependencies": {
+    "jspm": "^0.16.23"
   }
 }
