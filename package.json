@@ -22,6 +22,7 @@
     "url": "https://github.com/geelen/jspm-loader-css-modules/issues"
   },
   "homepage": "https://github.com/geelen/jspm-loader-css-modules",
+  "registry": "npm",
   "dependencies": {
     "jspm-loader-css": "1.0.1-beta1"
   }
