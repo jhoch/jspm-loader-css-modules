@@ -1,6 +1,6 @@
 {
   "name": "jspm-loader-css-modules",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "format": "esm",
   "registry": "jspm",
   "description": "A CSS Modules loader for JSPM",
@@ -25,7 +25,7 @@
   "homepage": "https://github.com/jhoch/jspm-loader-css-modules",
   "jspm": {
     "dependencies": {
-      "jspm-loader-css": "github:jhoch/jspm-loader-css@^1.0.4"
+      "jspm-loader-css": "github:jhoch/jspm-loader-css@^1.0.5"
     },
     "devDependencies": {
       "babel": "npm:babel-core@^5.8.24",
